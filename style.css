@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+.action-buttons button {
+  margin: 0 5px;
+  padding: 8px 12px;
+}
+
+.edit {
+  background-color: #28a745;
+}
+
+.delete {
+  background-color: #dc3545;
+}
